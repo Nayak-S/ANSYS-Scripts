@@ -22,6 +22,7 @@ Script Details
    - Ensure that ANSYS Mechanical is installed and the Python scripting environment is set up.
    - Open the ANSYS Mechanical project containing the simulation results you want to export.
    - within the solutions add Python code -> copy & paste
+   - set target call back to after solve
    - Ensure that the Design Point of interest is activated.
    - update all design points
    - The script will automatically export images for all Figure objects in the project, saving them in the user_files directory.
